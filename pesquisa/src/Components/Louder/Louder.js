@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Louder= () =>{
     return(
@@ -8,4 +8,4 @@ const Louder= () =>{
     )
 }
 
-export default Louder;
+export default Louder
