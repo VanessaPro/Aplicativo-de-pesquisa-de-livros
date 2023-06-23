@@ -1,11 +1,13 @@
 import React from 'react';
+import LoaderImg from "../../images/loader.svg";
+import "./Loader.css";
 
-const Louder= () =>{
-    return(
-        <div>
-
-        </div>
-    )
+const Loader = () => {
+  return (
+    <div className='loader flex flex-c'>
+      <img src = {LoaderImg} alt = "loader" />
+    </div>
+  )
 }
 
-export default Louder
+export default Loader
