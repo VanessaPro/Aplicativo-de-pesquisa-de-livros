@@ -1,15 +1,15 @@
 import React from 'react';
 import { useGlobalContext } from '../../context';
-import Book from "../Book/BookList";
-import Loading from "../..Loader/Loader";
-import coverImg from "../..img/Captura de tela 2023-06-20 152822.jpg";
-import "./Booklist.css";
+import Book from "../BookList/Book";
+import Loading from "../Louder/Louder";
+import coverImg from "../../img/cover.jpg";
+import "./BookList.css";
 
 //https://covers.openlibrary.org/b/id/240727-S.jpg
 
 const BookList = () => {
-  const {books, loading, resultTitle} = useGlobalContext();
-  const booksWithCovers = books.map((singleBook) => {
+   const {books, loading, resultTitle} = useGlobalContext();
+   const booksWithCovers = books.map((singleBook) => {
     return {
       ...singleBook,
       
