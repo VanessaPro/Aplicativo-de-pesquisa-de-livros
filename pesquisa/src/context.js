@@ -34,13 +34,13 @@ const AppProvider = ({children}) => {
                 setBooks(newBooks);
 
                 if(newBooks.length > 1){
-                    setResultTitle("Your Search Result");
+                    setResultTitle("Seu resultado de pesquisa");
                 } else {
-                    setResultTitle("No Search Result Found!")
+                    setResultTitle("Nenhum resultado de pesquisa encontrado!")
                 }
             } else {
                 setBooks([]);
-                setResultTitle("No Search Result Found!");
+                setResultTitle("Nenhum resultado de pesquisa encontrado!");
             }
             setLoading(false);
         } catch(error){
