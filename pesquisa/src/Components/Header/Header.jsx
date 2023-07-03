@@ -11,10 +11,10 @@ const Header = () => {
           <div className="header-content flex flex-c text-center text-white">
           <h2 className="header-title text-capitalize">
             {" "}
-            Encontre o seu livro preferido
+            Find your book of choice
           </h2>
         <br />
-        <p className="header-text fs-18 fw-3">O sucesso nasce do querer, da determinação e persistência em se chegar a um objetivo. Mesmo não atingindo o alvo, quem busca e vence obstáculos, no mínimo fará coisas admiráveis</p>
+        <p className="header-text fs-18 fw-3">Success is born from wanting, determination and persistence in reaching a goal. Even if you don't reach the target, those who seek and overcome obstacles will at least do admirable things</p>
            <SearchForm />
         </div>
       </header>

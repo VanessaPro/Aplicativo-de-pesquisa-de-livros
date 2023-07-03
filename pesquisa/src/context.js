@@ -5,7 +5,7 @@ const AppContext = React.createContext();
 
 
 const AppProvider = ({children}) => {
-    const [searchTerm, setSearchTerm] = useState("O mundo perdido");
+    const [searchTerm, setSearchTerm] = useState("the lost world");
     const [books, setBooks] = useState([]);
     const [loading, setLoading] = useState(true);
     const [resultTitle, setResultTitle] = useState("");
@@ -34,13 +34,13 @@ const AppProvider = ({children}) => {
                 setBooks(newBooks);
 
                 if(newBooks.length > 1){
-                    setResultTitle("Seu resultado de pesquisa");
+                    setResultTitle("Your Search Result");
                 } else {
-                    setResultTitle("Nenhum resultado de pesquisa encontrado!")
+                    setResultTitle("No Search Result Found!")
                 }
             } else {
                 setBooks([]);
-                setResultTitle("Nenhum resultado de pesquisa encontrado!");
+                setResultTitle("No Search Result Found!");
             }
             setLoading(false);
         } catch(error){
