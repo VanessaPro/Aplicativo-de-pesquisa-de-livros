@@ -21,10 +21,7 @@ const AppProvider = ({children}) => {
                 const newBooks = docs.slice(0, 20).map((bookSingle) => {
                     const {key, author_name, cover_i, edition_count, first_publish_year, title} = bookSingle;
 
-                    fetch('http://URL', {
-                        // "http://openlibrary.org/search.json?title="
-                        referrerPolicy: "unsafe_url" 
-                    });
+                    
 
                     return {
                         id: key,

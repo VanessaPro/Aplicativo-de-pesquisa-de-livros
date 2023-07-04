@@ -16,7 +16,7 @@ const About = () => {
           </div>
           <div className='about-text'>
             <h2 className='about-title fs-26 ls-1'>About LIVROLI</h2>
-            <p className='fs-17'>"Special people appear in our lives when we least expect it, they are by our side when we need them most and they stay forever for becoming part of us"
+            <p className='fs-17'>"Special people appear in our lives when we least expect it, they are by our side when we need them most and they stay forever for becoming part of us."
             </p>
             <p className='fs-17'>"The mind that opens to a new idea will never return to its original size."</p>
           </div>
